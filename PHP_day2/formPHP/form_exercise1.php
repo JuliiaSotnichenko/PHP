@@ -38,16 +38,18 @@
 <h2>Beautiful form</h2>
 
 
-    <form action="signin.php" method="POST">
+    <form action="signin.php" method="post">
             <input type="text" name="firstName" placeholder="Give your first name" 
-            value="<?php echo $firstName ?>">
+            >
             <br>
             <input type="text" name="name" placeholder="Give your last name"  
-            value="<?php echo $name ?>">
+           >
             <br>
             <input type="text" name="email" placeholder="Email">
             <br>
             <input type="password" name="password" placeholder="password">
+            <br>
+            <input type="password" name="cpassword" placeholder="Confirm PASSWORD">
             <br>
             <input type="submit" value="SEND">
             <input type="checkbox" id="scales" name="scales"
